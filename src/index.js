@@ -14,7 +14,7 @@ ReactDOM.render(
 			<IndexRoute component={Users} />
 			<Route path="user/:id" component={Albums} />
 			<Route path="user/:id/album/:id" component={Images} />
-			<Route path="user/:id/album/:id/image/:id" component={SingleImage} />
+			<Route path="album/:id/image/:id" component={SingleImage} />
 		</Route>
 	</Router>,
   document.getElementById('root')

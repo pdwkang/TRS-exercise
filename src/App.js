@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import User from './Users'
 class App extends Component {
-  render() {
+    render() {
     return (
-      <div className="App">
-        {this.props.children}
-      </div>
-    );
-  }
+        <div>
+            {this.props.children}
+        </div>
+        );
+    }
 }
 
 export default App;
